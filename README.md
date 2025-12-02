@@ -9,3 +9,11 @@ While tools like the OpenSSF Security Scorecard provide valuable metrics, they o
 Join me as I introduce Fennec Labs, a community-focused OSS project designed to help out with how we analyze and secure our software dependencies. I'll demonstrate how this tool enables developers to collaboratively identify security risks, share insights, and make more informed decisions about the NuGet packages they integrate into their applications.
 
 Whether you're a security-conscious developer, a DevOps engineer, or someone responsible for maintaining your organization's software supply chain, this session will provide practical insights and tools to help you level up your security game and protect your applications from supply chain attacks.
+
+## Fennec Labs CLI
+
+Fennec Labs has not been released to NuGet at this point. In order to install and use it you can clone this repo and execute the command shown below to get it installed as global tool on your system.
+
+```bash
+dotnet tool install --global --add-source ./FennecLabs/ fennec
+```
